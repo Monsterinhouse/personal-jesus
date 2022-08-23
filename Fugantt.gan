@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Fugantt" company="" webLink="http://" view-date="2022-09-19" view-index="0" gantt-divider-location="475" resource-divider-location="300" version="3.2.3240" locale="es_ES">
+<?xml version="1.0" encoding="UTF-8"?><project name="Fugantt" company="" webLink="http://" view-date="2022-09-19" view-index="0" gantt-divider-location="475" resource-divider-location="300" version="3.1.3100" locale="es_ES">
     <description/>
     <view zooming-state="default:4" id="gantt-chart">
-        <field id="tpd3" name="Nombre" width="270" order="0"/>
+        <field id="tpd3" name="Nombre" width="268" order="0"/>
         <field id="tpd4" name="Fecha de inicio" width="101" order="1"/>
-        <field id="tpd5" name="Fecha de fin" width="103" order="2"/>
-        <option id="filter.completedTasks" value="false"/>
+        <field id="tpd5" name="Fecha de fin" width="102" order="2"/>
     </view>
     <view id="resource-table">
         <field id="0" name="Nombre" width="210" order="0"/>
@@ -53,12 +52,18 @@
             <depend id="8" type="2" difference="0" hardness="Strong"/>
         </task>
         <task id="8" name="Correccion y revision" color="#8cb6ce" meeting="false" start="2022-09-29" duration="5" complete="0" thirdDate="2022-09-05" thirdDate-constraint="0" expand="true">
-            <depend id="5" type="2" difference="0" hardness="Strong"/>
+            <depend id="9" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="5" name="Ensamblaje" color="#8cb6ce" meeting="false" start="2022-10-06" duration="7" complete="0" thirdDate="2022-10-03" thirdDate-constraint="0" expand="true">
+        <task id="9" name="Ensamblado I - Conexion y Soldadura de Piezas" color="#8cb6ce" meeting="false" start="2022-10-06" duration="6" complete="0" thirdDate="2022-09-19" thirdDate-constraint="0" expand="true">
+            <depend id="13" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="10" name="Ensamblado II -  Armado de Carcasa" color="#8cb6ce" meeting="false" start="2022-10-06" duration="6" complete="0" thirdDate="2022-09-19" thirdDate-constraint="0" expand="true">
+            <depend id="13" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="13" name="Ensamblado III - Final" color="#8cb6ce" meeting="false" start="2022-10-14" duration="2" complete="0" thirdDate="2022-09-19" thirdDate-constraint="0" expand="true">
             <depend id="6" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="6" name="Pruebas Finales" color="#8cb6ce" meeting="false" start="2022-10-17" duration="5" complete="0" thirdDate="2022-10-03" thirdDate-constraint="0" expand="true"/>
+        <task id="6" name="Pruebas Finales" color="#8cb6ce" meeting="false" start="2022-10-18" duration="4" complete="0" thirdDate="2022-10-03" thirdDate-constraint="0" expand="true"/>
     </tasks>
     <resources/>
     <allocations/>
